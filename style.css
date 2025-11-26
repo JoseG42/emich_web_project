@@ -1,5 +1,56 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f3fff0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #035f03;
+}
+
+header {
+    background-color: #daffd1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+#navbar {
+    background-color: #f3fff0;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    position: sticky;
+    top: 0;
+}
+
+#goals {
+    background-color: #c4ddc5;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.collapsible{
+    background-color: #669d68a8;
+    width:fit-content;
+    color: black;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 1px 5px;
+    margin: 1px 1px;
+}
+
+.collapsible:hover {
+    background-color: #669d68;
+    color: white;
+}
+
 .content {
     display: none;
     overflow: hidden;
-    padding: 0 18px;
+    width: fit-content;
+    padding: 5px 10px;
+    background-color: #669d68a8;
+    border-radius: 2px;
 }
